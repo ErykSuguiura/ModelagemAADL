@@ -1,0 +1,1174 @@
+!SESSION 2023-03-31 09:57:29.399 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.jobs 2 2 2023-03-31 10:00:24.832
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage$17
+!SESSION 2023-03-31 10:00:28.558 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-03-31 10:01:09.170
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+!SESSION 2023-03-31 10:25:50.744 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 0 2023-03-31 10:48:27.341
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:565)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:480)
+	at org.eclipse.swt.widgets.Control.redraw(Control.java:4639)
+	at org.eclipse.swt.widgets.Link.gtk_event_after(Link.java:459)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2404)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6834)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6210)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1565)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-03-31 13:32:32.405 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.osate.ge 0 0 2023-03-31 13:43:26.451
+!MESSAGE org.osate.ge.internal.ui.handlers.OpenDiagramHandler.execute(): OpenDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-03-31 13:43:41.979
+!MESSAGE org.osate.ge.internal.ui.handlers.OpenDiagramHandler.execute(): OpenDiagramHandler Finished
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-03-31 13:44:15.664
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+
+!ENTRY org.osate.ge 0 0 2023-03-31 13:55:25.660
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-03-31 13:55:29.363
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2023-03-31 14:02:47.443
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://mem4csd.telecom-paristech.fr/download/update-site/ramses-2/stable.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:709)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:685)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.ui.discovery.operations.DiscoveryInstallOperation.addRepositories(DiscoveryInstallOperation.java:298)
+	at org.eclipse.equinox.internal.p2.ui.discovery.operations.DiscoveryInstallOperation.computeInstallableUnits(DiscoveryInstallOperation.java:118)
+	at org.eclipse.equinox.internal.p2.ui.discovery.operations.DiscoveryInstallOperation.run(DiscoveryInstallOperation.java:72)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2023-03-31 14:02:47.444
+!MESSAGE No repository found at https://mem4csd.telecom-paristech.fr/download/update-site/ramses-2/stable.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:03:25.614
+!MESSAGE Using unsafe http transport to retrieve http://beru.univ-brest.fr/svn/CHEDDAR/trunk/src/osate/osate2-update-site, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:03:32.251
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2022-03, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:03:40.878
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2022-03/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:03:48.209
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2022-03/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:03:51.347
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2022-03/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:04:01.807
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/2022-03/202203101200, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:04:12.475
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/2022-03/202203161000/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:05:25.688
+!MESSAGE Using unsafe http transport to retrieve http://osate-build.sei.cmu.edu/download/osate/stable/2.11.0/updates/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:05:33.122
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.23, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:05:38.663
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.23/categories, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:05:45.755
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.23/R-4.23-202203080310/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:07:36.447
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/mars, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:07:45.899
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/epp/packages/mars/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:08:00.950
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/mars/201506241002/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:08:16.705
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/mars/201510021000/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:08:32.889
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/releases/mars/201602261000/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:08:48.543
+!MESSAGE Using unsafe http transport to retrieve http://guava-osgi.googlecode.com/svn/trunk/repository/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:08:49.063
+!MESSAGE Using unsafe http transport to retrieve http://guava-osgi.googlecode.com/svn/trunk/repository/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:08:49.584
+!MESSAGE Using unsafe http transport to retrieve http://guava-osgi.googlecode.com/svn/trunk/repository/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:08:52.119
+!MESSAGE Using unsafe http transport to retrieve http://eclipse.py4j.org/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:08:57.424
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/nebula/snapshot, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:09:05.792
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/nebula/snapshot/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-03-31 14:09:09.434
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/nebula/snapshot, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-03-31 14:09:47.536
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-03-31 14:09:47.536
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.536
+!MESSAGE Software being installed: RAMSES plugins integration feature 2.0.1.202111122336 (fr.mem4csd.ramses.integration.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.536
+!MESSAGE Missing requirement: MDELab Workflow - ATL Transformer Component 1.4.1.202105071339 (de.mdelab.workflow.components.atlTransformer.feature.feature.group 1.4.1.202105071339) requires 'org.eclipse.equinox.p2.iu; org.eclipse.m2m.atl.feature.group 3.2.1.v20110914-0724' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-03-31 14:09:47.536
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.536
+!MESSAGE From: RAMSES Core 2.0.1.202111122336 (fr.mem4csd.ramses.core.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.536
+!MESSAGE To: org.eclipse.equinox.p2.iu; de.mdelab.workflow.components.atlTransformer.feature.feature.group [1.4.1.202105071339,1.4.1.202105071339]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-03-31 14:09:47.536
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.536
+!MESSAGE From: RAMSES plugins integration feature 2.0.1.202111122336 (fr.mem4csd.ramses.integration.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.536
+!MESSAGE To: org.eclipse.equinox.p2.iu; fr.mem4csd.ramses.core.feature.feature.group [2.0.1.202111122336,2.0.1.202111122336]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-03-31 14:09:47.570
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-03-31 14:09:47.570
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.570
+!MESSAGE Software being installed: RAMSES plugins integration feature 2.0.1.202111122336 (fr.mem4csd.ramses.integration.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.570
+!MESSAGE Missing requirement: MDELab Workflow - ATL Transformer Component 1.4.1.202105071339 (de.mdelab.workflow.components.atlTransformer.feature.feature.group 1.4.1.202105071339) requires 'org.eclipse.equinox.p2.iu; org.eclipse.m2m.atl.feature.group 3.2.1.v20110914-0724' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-03-31 14:09:47.570
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.570
+!MESSAGE From: RAMSES Core 2.0.1.202111122336 (fr.mem4csd.ramses.core.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.570
+!MESSAGE To: org.eclipse.equinox.p2.iu; de.mdelab.workflow.components.atlTransformer.feature.feature.group [1.4.1.202105071339,1.4.1.202105071339]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-03-31 14:09:47.570
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.570
+!MESSAGE From: RAMSES plugins integration feature 2.0.1.202111122336 (fr.mem4csd.ramses.integration.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.570
+!MESSAGE To: org.eclipse.equinox.p2.iu; fr.mem4csd.ramses.core.feature.feature.group [2.0.1.202111122336,2.0.1.202111122336]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-03-31 14:09:47.972
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-03-31 14:09:47.972
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.972
+!MESSAGE Software being installed: RAMSES plugins integration feature 2.0.1.202111122336 (fr.mem4csd.ramses.integration.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.972
+!MESSAGE Missing requirement: MDELab Workflow - ATL Transformer Component 1.4.1.202105071339 (de.mdelab.workflow.components.atlTransformer.feature.feature.group 1.4.1.202105071339) requires 'org.eclipse.equinox.p2.iu; org.eclipse.m2m.atl.feature.group 3.2.1.v20110914-0724' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-03-31 14:09:47.972
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.972
+!MESSAGE From: RAMSES Core 2.0.1.202111122336 (fr.mem4csd.ramses.core.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.972
+!MESSAGE To: org.eclipse.equinox.p2.iu; de.mdelab.workflow.components.atlTransformer.feature.feature.group [1.4.1.202105071339,1.4.1.202105071339]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-03-31 14:09:47.972
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.972
+!MESSAGE From: RAMSES plugins integration feature 2.0.1.202111122336 (fr.mem4csd.ramses.integration.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.972
+!MESSAGE To: org.eclipse.equinox.p2.iu; fr.mem4csd.ramses.core.feature.feature.group [2.0.1.202111122336,2.0.1.202111122336]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2023-03-31 14:09:47.974
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2023-03-31 14:09:47.974
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.974
+!MESSAGE Software being installed: RAMSES plugins integration feature 2.0.1.202111122336 (fr.mem4csd.ramses.integration.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.974
+!MESSAGE Missing requirement: MDELab Workflow - ATL Transformer Component 1.4.1.202105071339 (de.mdelab.workflow.components.atlTransformer.feature.feature.group 1.4.1.202105071339) requires 'org.eclipse.equinox.p2.iu; org.eclipse.m2m.atl.feature.group 3.2.1.v20110914-0724' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-03-31 14:09:47.975
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.975
+!MESSAGE From: RAMSES Core 2.0.1.202111122336 (fr.mem4csd.ramses.core.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.975
+!MESSAGE To: org.eclipse.equinox.p2.iu; de.mdelab.workflow.components.atlTransformer.feature.feature.group [1.4.1.202105071339,1.4.1.202105071339]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-03-31 14:09:47.975
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.975
+!MESSAGE From: RAMSES plugins integration feature 2.0.1.202111122336 (fr.mem4csd.ramses.integration.feature.feature.group 2.0.1.202111122336)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-03-31 14:09:47.975
+!MESSAGE To: org.eclipse.equinox.p2.iu; fr.mem4csd.ramses.core.feature.feature.group [2.0.1.202111122336,2.0.1.202111122336]
+!SESSION 2023-03-31 14:38:36.982 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-03-31 14:40:52.828
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+!SESSION 2023-04-13 07:04:10.228 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-04-13 07:05:47.855
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+
+!ENTRY org.osate.ge 0 0 2023-04-13 08:22:09.445
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-04-13 08:22:17.864
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-04-13 08:46:01.363
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-04-13 08:46:04.265
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-04-13 08:46:06.608
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-04-13 08:46:08.942
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+!SESSION 2023-04-13 12:41:31.818 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-04-13 12:42:06.417
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+
+!ENTRY org.osate.ge 0 0 2023-04-13 13:36:21.979
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-04-13 13:36:25.559
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-04-13 13:36:48.673
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-04-13 13:36:51.798
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-04-13 13:37:53.463
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-04-13 13:37:55.848
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-04-13 13:39:33.568
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-04-13 13:39:35.347
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-04-13 13:40:54.137
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-04-13 13:40:56.362
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-04-13 14:15:53.516
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-04-13 14:16:03.091
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.eclipse.ui 4 0 2023-04-13 14:45:42.058
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.emf.common.util.WrappedException: java.lang.RuntimeException: Could not serialize ModalPropertyValue:
+ModalPropertyValue.ownedValue is required to have a value, but it does not.
+Semantic Object: AadlPackage'Modelo3::integracao'.ownedPublicSection->PublicPackageSection'Modelo3::integracao_public'.ownedClassifier[1]->SystemImplementation'integracao.generic'.ownedPortConnection[13]->PortConnection'c130'.ownedPropertyAssociation[0]->PropertyAssociation.ownedValue[0]->ModalPropertyValue
+URI: platform:/resource/Modelo3/packages/Integration/integration.aadl
+Context: OptionalModalPropertyValue returns ModalPropertyValue
+	at org.eclipse.xtext.ui.editor.quickfix.IssueResolution.apply(IssueResolution.java:79)
+	at org.eclipse.xtext.ui.editor.quickfix.QuickAssistCompletionProposal.apply(QuickAssistCompletionProposal.java:37)
+	at org.eclipse.xtext.ui.editor.hover.AnnotationWithQuickFixesHover$AnnotationInformationControl.apply(AnnotationWithQuickFixesHover.java:537)
+	at org.eclipse.xtext.ui.editor.hover.AnnotationWithQuickFixesHover$AnnotationInformationControl.access$2(AnnotationWithQuickFixesHover.java:514)
+	at org.eclipse.xtext.ui.editor.hover.AnnotationWithQuickFixesHover$AnnotationInformationControl$5.widgetSelected(AnnotationWithQuickFixesHover.java:508)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1691)
+	at org.eclipse.swt.widgets.Link.gtk_button_release_event(Link.java:432)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2399)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6834)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6210)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1565)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.RuntimeException: Could not serialize ModalPropertyValue:
+ModalPropertyValue.ownedValue is required to have a value, but it does not.
+Semantic Object: AadlPackage'Modelo3::integracao'.ownedPublicSection->PublicPackageSection'Modelo3::integracao_public'.ownedClassifier[1]->SystemImplementation'integracao.generic'.ownedPortConnection[13]->PortConnection'c130'.ownedPropertyAssociation[0]->PropertyAssociation.ownedValue[0]->ModalPropertyValue
+URI: platform:/resource/Modelo3/packages/Integration/integration.aadl
+Context: OptionalModalPropertyValue returns ModalPropertyValue
+	at org.eclipse.xtext.serializer.diagnostic.ISerializationDiagnostic$ExceptionThrowingAcceptor.accept(ISerializationDiagnostic.java:132)
+	at org.eclipse.xtext.serializer.sequencer.BacktrackingSemanticSequencer.createSequence(BacktrackingSemanticSequencer.java:514)
+	at org.osate.xtext.aadl2.properties.serializer.AbstractPropertiesSemanticSequencer.sequence_OptionalModalPropertyValue(AbstractPropertiesSemanticSequencer.java:428)
+	at org.osate.xtext.aadl2.serializer.AbstractAadl2SemanticSequencer.sequence(AbstractAadl2SemanticSequencer.java:610)
+	at org.eclipse.xtext.serializer.sequencer.AbstractSemanticSequencer.createSequence(AbstractSemanticSequencer.java:68)
+	at org.osate.xtext.aadl2.serializer.Aadl2SemanticSequencer.createSequence(Aadl2SemanticSequencer.java:147)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.acceptEObjectRuleCall(SequenceFeeder.java:327)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.acceptRuleCall(SequenceFeeder.java:354)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.accept(SequenceFeeder.java:265)
+	at org.eclipse.xtext.serializer.sequencer.BacktrackingSemanticSequencer.accept(BacktrackingSemanticSequencer.java:445)
+	at org.eclipse.xtext.serializer.sequencer.BacktrackingSemanticSequencer.createSequence(BacktrackingSemanticSequencer.java:512)
+	at org.osate.xtext.aadl2.properties.serializer.AbstractPropertiesSemanticSequencer.sequence_PropertyAssociation(AbstractPropertiesSemanticSequencer.java:447)
+	at org.osate.xtext.aadl2.serializer.AbstractAadl2SemanticSequencer.sequence(AbstractAadl2SemanticSequencer.java:722)
+	at org.eclipse.xtext.serializer.sequencer.AbstractSemanticSequencer.createSequence(AbstractSemanticSequencer.java:68)
+	at org.osate.xtext.aadl2.serializer.Aadl2SemanticSequencer.createSequence(Aadl2SemanticSequencer.java:147)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.acceptEObjectRuleCall(SequenceFeeder.java:327)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.acceptRuleCall(SequenceFeeder.java:354)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.accept(SequenceFeeder.java:265)
+	at org.eclipse.xtext.serializer.sequencer.BacktrackingSemanticSequencer.accept(BacktrackingSemanticSequencer.java:445)
+	at org.eclipse.xtext.serializer.sequencer.BacktrackingSemanticSequencer.createSequence(BacktrackingSemanticSequencer.java:512)
+	at org.osate.xtext.aadl2.serializer.AbstractAadl2SemanticSequencer.sequence_PortConnection(AbstractAadl2SemanticSequencer.java:2718)
+	at org.osate.xtext.aadl2.serializer.AbstractAadl2SemanticSequencer.sequence(AbstractAadl2SemanticSequencer.java:673)
+	at org.eclipse.xtext.serializer.sequencer.AbstractSemanticSequencer.createSequence(AbstractSemanticSequencer.java:68)
+	at org.osate.xtext.aadl2.serializer.Aadl2SemanticSequencer.createSequence(Aadl2SemanticSequencer.java:147)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.acceptEObjectRuleCall(SequenceFeeder.java:327)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.acceptRuleCall(SequenceFeeder.java:354)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.accept(SequenceFeeder.java:265)
+	at org.eclipse.xtext.serializer.sequencer.BacktrackingSemanticSequencer.accept(BacktrackingSemanticSequencer.java:445)
+	at org.eclipse.xtext.serializer.sequencer.BacktrackingSemanticSequencer.createSequence(BacktrackingSemanticSequencer.java:512)
+	at org.osate.xtext.aadl2.serializer.AbstractAadl2SemanticSequencer.sequence_SystemImplementation(AbstractAadl2SemanticSequencer.java:3821)
+	at org.osate.xtext.aadl2.serializer.AbstractAadl2SemanticSequencer.sequence(AbstractAadl2SemanticSequencer.java:849)
+	at org.eclipse.xtext.serializer.sequencer.AbstractSemanticSequencer.createSequence(AbstractSemanticSequencer.java:68)
+	at org.osate.xtext.aadl2.serializer.Aadl2SemanticSequencer.createSequence(Aadl2SemanticSequencer.java:147)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.acceptEObjectRuleCall(SequenceFeeder.java:327)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.acceptRuleCall(SequenceFeeder.java:354)
+	at org.eclipse.xtext.serializer.acceptor.SequenceFeeder.accept(SequenceFeeder.java:265)
+	at org.eclipse.xtext.serializer.sequencer.BacktrackingSemanticSequencer.accept(BacktrackingSemanticSequencer.java:445)
+	at org.eclipse.xtext.serializer.sequencer.BacktrackingSemanticSequencer.createSequence(BacktrackingSemanticSequencer.java:512)
+	at org.osate.xtext.aadl2.serializer.AbstractAadl2SemanticSequencer.sequence_PublicPackageSection(AbstractAadl2SemanticSequencer.java:3174)
+	at org.osate.xtext.aadl2.serializer.AbstractAadl2SemanticSequencer.sequence(AbstractAadl2SemanticSequencer.java:733)
+	at org.eclipse.xtext.serializer.sequencer.AbstractSemanticSequencer.createSequence(AbstractSemanticSequencer.java:68)
+	at org.osate.xtext.aadl2.serializer.Aadl2SemanticSequencer.createSequence(Aadl2SemanticSequencer.java:147)
+	at org.eclipse.xtext.serializer.impl.Serializer.serialize(Serializer.java:122)
+	at org.eclipse.xtext.serializer.impl.Serializer.serializeToRegions(Serializer.java:144)
+	at org.eclipse.xtext.serializer.impl.Serializer.serialize(Serializer.java:150)
+	at org.eclipse.xtext.serializer.impl.Serializer.serialize(Serializer.java:184)
+	at org.eclipse.xtext.serializer.impl.Serializer.serializeReplacement(Serializer.java:215)
+	at org.eclipse.xtext.ui.editor.model.edit.DefaultTextEditComposer.getObjectEdits(DefaultTextEditComposer.java:177)
+	at org.eclipse.xtext.ui.editor.model.edit.DefaultTextEditComposer.getTextEdit(DefaultTextEditComposer.java:147)
+	at org.eclipse.xtext.ui.editor.model.edit.DefaultTextEditComposer.endRecording(DefaultTextEditComposer.java:130)
+	at org.eclipse.xtext.ui.editor.model.edit.ReconcilingUnitOfWork.exec(ReconcilingUnitOfWork.java:58)
+	at org.eclipse.xtext.ui.editor.model.edit.ReconcilingUnitOfWork.exec(ReconcilingUnitOfWork.java:1)
+	at org.eclipse.xtext.resource.OutdatedStateManager.exec(OutdatedStateManager.java:70)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument$XtextDocumentLocker.modify(XtextDocument.java:432)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.internalModify(XtextDocument.java:165)
+	at org.eclipse.xtext.ui.editor.model.XtextDocument.modify(XtextDocument.java:158)
+	at org.eclipse.xtext.ui.editor.model.edit.SemanticModificationWrapper.apply(SemanticModificationWrapper.java:33)
+	at org.eclipse.xtext.ui.editor.quickfix.IssueResolution.apply(IssueResolution.java:77)
+	... 40 more
+!SESSION 2023-04-17 13:12:33.272 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-04-17 13:13:03.162
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+!SESSION 2023-04-26 21:24:21.969 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-04-26 21:24:35.873
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+!SESSION 2023-05-05 13:42:41.550 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-05-05 13:42:48.821
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+!SESSION 2023-05-05 14:18:34.501 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-05-05 14:18:41.647
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+!SESSION 2023-05-18 17:22:23.249 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-05-18 17:23:50.395
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+!SESSION 2023-05-19 10:31:43.099 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-05-19 10:31:54.115
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+
+!ENTRY org.osate.ge 0 0 2023-05-19 11:05:54.495
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-05-19 11:06:02.729
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-05-19 11:26:49.053
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-05-19 11:26:52.942
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:00:35.977
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:00:38.202
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:06:29.313
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:06:30.928
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+!SESSION 2023-05-19 14:07:28.650 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-05-19 14:07:30.103
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-05-19 14:07:34.423
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:17:25.349
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:17:28.285
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:25:11.029
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:25:12.373
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:26:40.246
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:26:42.152
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:33:14.913
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:33:16.774
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-05-19 14:59:59.567
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-05-19 15:00:01.526
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-05-19 15:23:27.766
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-05-19 15:23:29.946
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.eclipse.ui 4 0 2023-05-19 20:16:57.836
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:6012)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:361)
+	at org.eclipse.ui.internal.CoolBarToTrimManager$ToolBarContributionItemExtension.setVisible(CoolBarToTrimManager.java:80)
+	at org.eclipse.ui.internal.EditorActionBars.setVisible(EditorActionBars.java:413)
+	at org.eclipse.ui.internal.EditorActionBars.setVisible(EditorActionBars.java:444)
+	at org.eclipse.ui.internal.EditorActionBars.setActive(EditorActionBars.java:367)
+	at org.eclipse.ui.internal.EditorActionBars.deactivate(EditorActionBars.java:151)
+	at org.eclipse.ui.internal.PartSite.deactivateActionBars(PartSite.java:588)
+	at org.eclipse.ui.internal.EditorSite.deactivateActionBars(EditorSite.java:87)
+	at org.eclipse.ui.internal.WorkbenchPage$ActionSwitcher.deactivateContributions(WorkbenchPage.java:754)
+	at org.eclipse.ui.internal.WorkbenchPage$ActionSwitcher.updateTopEditor(WorkbenchPage.java:713)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActiveEditorSources(WorkbenchPage.java:418)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartClosed(WorkbenchPage.java:5078)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.lambda$0(CompatibilityPart.java:112)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:6012)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:267)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:149)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.lambda$0(SWTPartRenderer.java:138)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1525)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1328)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:281)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:505)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:3426)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:543)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:3343)
+	at org.eclipse.swt.widgets.Display.release(Display.java:4637)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:277)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.stop(Display.java:217)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleStop(SessionManagerDBus.java:292)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleEndSession(SessionManagerDBus.java:282)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:313)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:722)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.saveParts(WorkbenchWindow.java:775)
+	at org.eclipse.ui.internal.Workbench.saveAllParts(Workbench.java:1326)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1052)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2744)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5887)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:211)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:261)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:310)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4899)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:565)
+	at org.eclipse.swt.widgets.Control.setParent(Control.java:5829)
+	at org.eclipse.e4.ui.workbench.addons.cleanupaddon.CleanupAddon.subscribeVisibilityChanged(CleanupAddon.java:261)
+	at jdk.internal.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 143 more
+
+!ENTRY org.eclipse.equinox.event 4 0 2023-05-19 20:16:57.839
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/UIElement/visible/SET] {ChangedElement=org.osate.xtext.aadl2.Aadl2=org.eclipse.e4.ui.model.application.ui.menu.impl.ToolBarImpl@2aea717c (tags: [Draggable], contributorURI: null) (widget: ImageBasedFrame {} [layout=null], renderer: org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer@731d0d5c, toBeRendered: true, onTop: false, visible: false, containerData: null, accessibilityPhrase: null), org.eclipse.e4.data={ChangedElement=org.osate.xtext.aadl2.Aadl2=org.eclipse.e4.ui.model.application.ui.menu.impl.ToolBarImpl@2aea717c (tags: [Draggable], contributorURI: null) (widget: ImageBasedFrame {} [layout=null], renderer: org.eclipse.e4.ui.workbench.renderers.swt.ToolBarManagerRenderer@731d0d5c, toBeRendered: true, onTop: false, visible: false, containerData: null, accessibilityPhrase: null), AttName=visible, EventType=SET, OldValue=true, Widget=ImageBasedFrame {} [layout=null], NewValue=false}, AttName=visible, EventType=SET, OldValue=true, Widget=ImageBasedFrame {} [layout=null], NewValue=false} to handler org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler@4dcdbb80
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:361)
+	at org.eclipse.ui.internal.CoolBarToTrimManager$ToolBarContributionItemExtension.setVisible(CoolBarToTrimManager.java:80)
+	at org.eclipse.ui.internal.EditorActionBars.setVisible(EditorActionBars.java:413)
+	at org.eclipse.ui.internal.EditorActionBars.setVisible(EditorActionBars.java:444)
+	at org.eclipse.ui.internal.EditorActionBars.setActive(EditorActionBars.java:367)
+	at org.eclipse.ui.internal.EditorActionBars.deactivate(EditorActionBars.java:151)
+	at org.eclipse.ui.internal.PartSite.deactivateActionBars(PartSite.java:588)
+	at org.eclipse.ui.internal.EditorSite.deactivateActionBars(EditorSite.java:87)
+	at org.eclipse.ui.internal.WorkbenchPage$ActionSwitcher.deactivateContributions(WorkbenchPage.java:754)
+	at org.eclipse.ui.internal.WorkbenchPage$ActionSwitcher.updateTopEditor(WorkbenchPage.java:713)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActiveEditorSources(WorkbenchPage.java:418)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartClosed(WorkbenchPage.java:5078)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.lambda$0(CompatibilityPart.java:112)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:6012)
+	at org.eclipse.e4.ui.workbench.swt.DisplayUISynchronize.syncExec(DisplayUISynchronize.java:34)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:267)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:149)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.lambda$0(SWTPartRenderer.java:138)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1525)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1328)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:1559)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:281)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:505)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:3426)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1335)
+	at org.eclipse.swt.widgets.Control.release(Control.java:4757)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:543)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:3343)
+	at org.eclipse.swt.widgets.Display.release(Display.java:4637)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:277)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.stop(Display.java:217)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleStop(SessionManagerDBus.java:292)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleEndSession(SessionManagerDBus.java:282)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:313)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:722)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.saveParts(WorkbenchWindow.java:775)
+	at org.eclipse.ui.internal.Workbench.saveAllParts(Workbench.java:1326)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1052)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2744)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5887)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:211)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:261)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:310)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4899)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:565)
+	at org.eclipse.swt.widgets.Control.setParent(Control.java:5829)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeVisibilityHandler(PartRenderingEngine.java:233)
+	at jdk.internal.reflect.GeneratedMethodAccessor33.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 139 more
+
+!ENTRY org.eclipse.ui 4 0 2023-05-19 20:16:57.898
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:565)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:480)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:4569)
+	at org.osate.ge.gef.ui.editor.AgeEditor.updateDiagram(AgeEditor.java:1187)
+	at org.osate.ge.gef.ui.editor.AgeEditor$3.afterModelChangeNotification(AgeEditor.java:491)
+	at org.osate.ge.internal.services.impl.DefaultModelChangeNotifier.onModelChanged(DefaultModelChangeNotifier.java:227)
+	at org.osate.ge.internal.services.impl.DefaultModelChangeNotifier.lambda$3(DefaultModelChangeNotifier.java:195)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.swt.widgets.Display.release(Display.java:4652)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:277)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.stop(Display.java:217)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleStop(SessionManagerDBus.java:292)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleEndSession(SessionManagerDBus.java:282)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:313)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:722)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.saveParts(WorkbenchWindow.java:775)
+	at org.eclipse.ui.internal.Workbench.saveAllParts(Workbench.java:1326)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1052)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2744)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5887)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:211)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:261)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:310)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-05-19 20:16:57.899
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:565)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:480)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:4569)
+	at org.osate.ge.gef.ui.editor.AgeEditor.updateDiagram(AgeEditor.java:1187)
+	at org.osate.ge.gef.ui.editor.AgeEditor$3.afterModelChangeNotification(AgeEditor.java:491)
+	at org.osate.ge.internal.services.impl.DefaultModelChangeNotifier.onModelChanged(DefaultModelChangeNotifier.java:227)
+	at org.osate.ge.internal.services.impl.DefaultModelChangeNotifier.lambda$3(DefaultModelChangeNotifier.java:195)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.swt.widgets.Display.release(Display.java:4652)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:277)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.stop(Display.java:217)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleStop(SessionManagerDBus.java:292)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleEndSession(SessionManagerDBus.java:282)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:313)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:722)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.saveParts(WorkbenchWindow.java:775)
+	at org.eclipse.ui.internal.Workbench.saveAllParts(Workbench.java:1326)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1052)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2744)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5887)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:211)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:261)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:310)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-05-19 20:16:57.903
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:565)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:480)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:4569)
+	at org.osate.ge.gef.ui.editor.AgeEditor.updateDiagram(AgeEditor.java:1187)
+	at org.osate.ge.gef.ui.editor.AgeEditor$3.afterModelChangeNotification(AgeEditor.java:491)
+	at org.osate.ge.internal.services.impl.DefaultModelChangeNotifier.onModelChanged(DefaultModelChangeNotifier.java:227)
+	at org.osate.ge.internal.services.impl.DefaultModelChangeNotifier.lambda$3(DefaultModelChangeNotifier.java:195)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:5101)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4584)
+	at org.eclipse.swt.widgets.Display.release(Display.java:4652)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:277)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.stop(Display.java:217)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleStop(SessionManagerDBus.java:292)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleEndSession(SessionManagerDBus.java:282)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:313)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:722)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.saveParts(WorkbenchWindow.java:775)
+	at org.eclipse.ui.internal.Workbench.saveAllParts(Workbench.java:1326)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1052)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2744)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5887)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:211)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:261)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:310)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-05-19 20:16:57.952
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1518)
+	at org.eclipse.swt.widgets.Display.checkDevice(Display.java:968)
+	at org.eclipse.swt.widgets.Display.getShells(Display.java:2786)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:76)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2744)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5887)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:211)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:261)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:310)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)

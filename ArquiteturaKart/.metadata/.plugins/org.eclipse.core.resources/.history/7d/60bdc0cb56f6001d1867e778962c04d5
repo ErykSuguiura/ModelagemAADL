@@ -1,0 +1,14 @@
+Bus load analysis of DCS_singletier1_Instance
+
+
+"Physical Bus","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"canbus","768.0","512.0","0.0","0.0"
+"pci","900.0","650.0","0.0","0.0"
+
+"Bus canbus has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+
+"Bus pci has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+
+

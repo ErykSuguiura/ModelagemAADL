@@ -1,0 +1,10 @@
+Define como os componentes interagem uns com os outros e como a comunicao entre eles e realizada. 
+Implementado atraves da definicao de portas, eventos e propriedades.
+
+pode-se definir uma porta de entrada nos motores eletricos para receber comandos de controle de velocidade, e uma porta de saida nas baterias para fornecer informacoes sobre o estado de carga.
+
+
+- prioridade de acesso
+- largura de banda suportada
+- taxa de transmissao de dados
+- polaridade de sinais

@@ -1,0 +1,26 @@
+Bus load analysis of MySystem_Tier2_Instance
+
+
+"Physical Bus","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"canbus","768.0","512.0","0.0","160.0"
+"pci","900.0","650.0","0.0","0.0"
+
+"Bus canbus has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"sensor1.sensorout -> dcs.dca.iop.sense1.signalin","","0.0","","80.0"
+"sensor2.sensorout -> dcs.dca.iop.sense2.signalin","","0.0","","80.0"
+"dcs.dca.actuatorOut -> actuator.actuatorin","","0.0","","0.0"
+
+"Connection sensor1.sensorout -> dcs.dca.iop.sense1.signalin bound to canbus"
+"WARNING: Connection sensor1.sensorout -> dcs.dca.iop.sense1.signalin has no bandwidth budget"
+
+"Connection sensor2.sensorout -> dcs.dca.iop.sense2.signalin bound to canbus"
+"WARNING: Connection sensor2.sensorout -> dcs.dca.iop.sense2.signalin has no bandwidth budget"
+
+"Connection dcs.dca.actuatorOut -> actuator.actuatorin bound to canbus"
+"WARNING: Connection dcs.dca.actuatorOut -> actuator.actuatorin has no bandwidth budget"
+
+"Bus pci has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+
+

@@ -1,0 +1,12 @@
+Bus load analysis of Sistema_i_Instance
+
+
+"Physical Bus","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"barramento","768.0","512.0","40.0","0.0"
+
+"Bus barramento has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"scs1.out1 -> scs2.in1","","20.0","","0.0"
+"scs2.out1 -> scs1.in1","","20.0","","0.0"
+
+

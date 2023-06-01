@@ -1,0 +1,159 @@
+------------------------------------------------------------------
+--                 EXEMPLO DE BUS LOAD ANALYSIS                 --
+------------------------------------------------------------------
+package Exemplo
+
+    public
+    	
+    --------------------------------------------------------------
+	--                       "Includes"                         --
+	--------------------------------------------------------------
+	with SEI;
+
+	--------------------------------------------------------------
+	--                 Especificações de Dados                  --
+	--------------------------------------------------------------
+    data D8
+        properties
+            Data_Size => 8 Bytes;
+    end D8;
+    
+    data D4
+    	properties
+    		Data_Size => 4 Bytes;
+    end D4;
+    
+    data SensorData
+		properties
+			Data_Size => 2 KByte;
+	end SensorData;
+
+	data actuatecmd
+		properties
+			Data_Size => 100 Bytes;
+	end actuatecmd;
+	
+	--------------------------------------------------------------
+	--                 DEFINICAO DE ENERGIA[']                  --
+	--------------------------------------------------------------
+	abstract Eletricidade
+	end Eletricidade;
+
+	abstract Massa
+	end Massa;
+
+	system FornecedorEnergia
+		features
+			Fornecedor: out feature Eletricidade;
+		properties
+			SEI::GrossWeight => 1.2kg;
+			SEI::PowerSupply => 40.0W applies to Fornecedor;
+	end FornecedorEnergia;
+
+	system ElectricGrid
+		features
+			Fornecedor: in feature Eletricidade;
+			Consumidor: out feature Eletricidade;
+		properties
+			SEI::GrossWeight => 0.9kg;
+			SEI::PowerCapacity => 40.0W;
+	end ElectricGrid;
+
+    --------------------------------------------------------------
+	--                       Barramentos                        --
+	--------------------------------------------------------------
+	bus CANbus
+		features
+			potencia: in feature Eletricidade;
+		properties
+			SEI::PowerBudget => 0.8w applies to potencia;
+			SEI::GrossWeight => 0.1kg;
+			SEI::BandWidthCapacity => 768.0 KBytesps;
+			SEI::BandWidthBudget => 512.0 KBytesps;
+	end CANbus;
+
+	
+	--------------------------------------------------------------
+	--                         SISTEMAS                         --
+	--------------------------------------------------------------
+	-- definicao do sistema
+	system Sistema
+	end Sistema;
+	
+	system DCA
+		features
+			sensor1in: in data port SensorData;
+			sensor2In: in data port SensorData;
+			actuatorOut: out data port actuatecmd;
+		properties
+			SEI::MIPSBudget => 2.0 mips;
+	end DCA;
+	
+	-- Domain Control System
+	system DCS
+		features
+			power: in feature Eletricidade;
+			canbusaccess: provides bus access CANbus;
+			sensorin: in data port SensorData;
+			actuatorOut: out data port actuatecmd;
+	end DCS;
+	
+	-- Software Communication System
+	system SCS
+		features
+			potencia: in feature Eletricidade;
+		properties
+			SEI::PowerBudget => 2.5w applies to potencia;
+			SEI::WeightLimit => 2.5kg;
+	end SCS;
+	
+	--------------------------------------------------------------
+	--        Implementacao de sistemas intermediarios          --
+	--------------------------------------------------------------
+	system implementation DCS.i
+		subcomponents
+			dca: system DCA;
+			hw: system platform;
+		connections
+			p1: feature power -> hw.power;
+			extcb: bus access hw.canbusaccess <-> canbusaccess;
+			data1: port sensor1in -> dca.sensor1in;
+			data2: port sensor2In -> dca.sensor2In;
+			data3: port dca.actuatorOut -> actuatorOut;
+	end DCS.i;
+	
+	system implementation SCS.i
+		subcomponents
+			dcs: system DCS.i;
+			sensor1: device sensor;
+			actuator: device actuator;
+		connections
+			p1: feature power -> dcs.power;
+			p2: feature power -> sensor1.power;
+			p4: feature power -> actuator.power;
+			cb1: bus access dcs.canbusaccess <-> sensor1.canbusaccess;
+			cb3: bus access dcs.canbusaccess <-> actuator.canbusaccess;
+			data1: feature sensor1.sensorout -> dcs.sensor1in;
+			data3: feature dcs.actuatorOut -> actuator.actuatorin;
+	end SCS.tier0;
+	
+	--------------------------------------------------------------
+	--            Implementacao do sistema Geral                --
+	--------------------------------------------------------------
+	system implementation Sistema.i
+		subcomponents
+			EPSU: system FornecedorEnergia;
+			Grid: system ElectricGrid;
+			scs: system SCS.i;
+		connections
+			psupply: feature EPSU.Fornecedor -> Grid.Fornecedor;
+			pconsume: feature Grid.Consumidor -> scs.potencia;
+		properties
+			SEI::WeightLimit => 3.0kg;
+	end Sistema.i;
+
+end Exemplo;
+
+------------------------------------------------------------------
+--                        FIM DO ARQUIVO                        --
+------------------------------------------------------------------

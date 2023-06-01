@@ -1,0 +1,49 @@
+Bus load analysis of integracao_esp32_Instance
+
+
+"Physical Bus","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"can","62.5","0.0625","6.25E-4","8.765833333333335"
+"ethernet","100000.0","0.0","0.0","0.0"
+
+"Bus can has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"speed_estimate.speed -> speed_threshold_calculation.thr.current_speed","","0.0","","0.0"
+"speed_estimate.speed -> speed_controller.thr.current_speed","","6.25E-4","","0.0"
+"speed_estimate.speed -> obstacle_distance_evaluation.thr.current_speed","","0.0","","0.0"
+"speed_estimate.speed -> emergency_detection.thr.current_speed","","0.0","","0.0"
+"position_voter.thr.position -> speed_controller.thr.position","","0.0","","4.166666666666667"
+"position_voter.thr.position -> speed_threshold_calculation.thr.position","","0.0","","4.166666666666667"
+"obstacle_detection.thr.obstacle_detected -> obstacle_distance_evaluation.thr.obstacle_detected","","0.0","","0.00125"
+"obstacle_distance_evaluation.thr.obstacle_distance -> emergency_detection.thr.obstacle_distance","","0.0","","0.4"
+"emergency_detection.thr.emergency_detected -> speed_controller.thr.emergency_detected","","0.0","","0.03125"
+
+"Connection speed_estimate.speed -> speed_threshold_calculation.thr.current_speed bound to can"
+"WARNING: Connection speed_estimate.speed -> speed_threshold_calculation.thr.current_speed has no bandwidth budget"
+
+"Connection speed_estimate.speed -> obstacle_distance_evaluation.thr.current_speed bound to can"
+"WARNING: Connection speed_estimate.speed -> obstacle_distance_evaluation.thr.current_speed has no bandwidth budget"
+
+"Connection speed_estimate.speed -> emergency_detection.thr.current_speed bound to can"
+"WARNING: Connection speed_estimate.speed -> emergency_detection.thr.current_speed has no bandwidth budget"
+
+"Connection position_voter.thr.position -> speed_controller.thr.position bound to can"
+"WARNING: Connection position_voter.thr.position -> speed_controller.thr.position has no bandwidth budget"
+
+"Connection position_voter.thr.position -> speed_threshold_calculation.thr.position bound to can"
+"WARNING: Connection position_voter.thr.position -> speed_threshold_calculation.thr.position has no bandwidth budget"
+
+"Connection obstacle_detection.thr.obstacle_detected -> obstacle_distance_evaluation.thr.obstacle_detected bound to can"
+"WARNING: Connection obstacle_detection.thr.obstacle_detected -> obstacle_distance_evaluation.thr.obstacle_detected has no bandwidth budget"
+
+"Connection obstacle_distance_evaluation.thr.obstacle_distance -> emergency_detection.thr.obstacle_distance bound to can"
+"WARNING: Connection obstacle_distance_evaluation.thr.obstacle_distance -> emergency_detection.thr.obstacle_distance has no bandwidth budget"
+
+"Connection emergency_detection.thr.emergency_detected -> speed_controller.thr.emergency_detected bound to can"
+"WARNING: Connection emergency_detection.thr.emergency_detected -> speed_controller.thr.emergency_detected has no bandwidth budget"
+
+"Bus ethernet has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+
+"WARNING: Bus ethernet has no bandwidth budget"
+
+

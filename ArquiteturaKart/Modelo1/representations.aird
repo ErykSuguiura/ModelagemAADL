@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:FaultTree="http://www.aadl.info/FaultTree" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/table/description/1.1.0" xmlns:table="http://www.eclipse.org/sirius/table/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/table/description/1.1.0 http://www.eclipse.org/sirius/table/1.1.0#//description">
+  <viewpoint:DAnalysis uid="_Lpy7MM_kEe2YEdILq_wW_g" selectedViews="_MDE94M_kEe2YEdILq_wW_g" version="15.0.0.202201261500">
+    <semanticResources>Comunicacao/Barramento/packages/Hardware/devices.aadl</semanticResources>
+    <semanticResources>Comunicacao/Barramento/packages/Libraries/icd.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.contribution.sei/resources/packages/Base_Types.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.contribution.sei/resources/properties/Data_Model.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Memory_Properties.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Communication_Properties.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.aadl2.errormodel.contrib/resources/properties/EMV2.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.aadl2.errormodel.contrib/resources/properties/ARP4761.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Timing_Properties.aadl</semanticResources>
+    <semanticResources>Comunicacao/Barramento/packages/Libraries/error.aadl</semanticResources>
+    <semanticResources>Comunicacao/Barramento/packages/Hardware/platform.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl</semanticResources>
+    <semanticResources>Comunicacao/Barramento/packages/Integration/instances/integration_integracao_TesteImplementacao1_Instance.aaxl2</semanticResources>
+    <semanticResources>Comunicacao/Barramento/packages/Integration/integration.aadl</semanticResources>
+    <semanticResources>Comunicacao/Barramento/packages/Software/software.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Thread_Properties.aadl</semanticResources>
+    <semanticResources>platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Deployment_Properties.aadl</semanticResources>
+    <semanticResources>Comunicacao/Barramento/packages/Integration/instances/integration_integracao_TesteImplementacao2_Instance.aaxl2</semanticResources>
+    <semanticResources>Comunicacao/Cabeamento/packages/Hardware/devices.aadl</semanticResources>
+    <semanticResources>Comunicacao/Cabeamento/packages/Libraries/icd.aadl</semanticResources>
+    <semanticResources>Comunicacao/Cabeamento/packages/Libraries/error.aadl</semanticResources>
+    <semanticResources>Comunicacao/Cabeamento/packages/Hardware/platform.aadl</semanticResources>
+    <semanticResources>Comunicacao/Cabeamento/packages/Integration/integration.aadl</semanticResources>
+    <semanticResources>Comunicacao/Cabeamento/packages/Software/software.aadl</semanticResources>
+    <semanticResources>Comunicacao/Interfaces/packages/Hardware/devices.aadl</semanticResources>
+    <semanticResources>Comunicacao/Interfaces/packages/Libraries/icd.aadl</semanticResources>
+    <semanticResources>Comunicacao/Interfaces/packages/Libraries/error.aadl</semanticResources>
+    <semanticResources>Comunicacao/Interfaces/packages/Hardware/platform.aadl</semanticResources>
+    <semanticResources>Comunicacao/Interfaces/packages/Integration/integration.aadl</semanticResources>
+    <semanticResources>Comunicacao/Interfaces/packages/Software/software.aadl</semanticResources>
+    <semanticResources>Comunicacao/PowerBus/packages/Hardware/devices.aadl</semanticResources>
+    <semanticResources>Comunicacao/PowerBus/packages/Libraries/icd.aadl</semanticResources>
+    <semanticResources>Comunicacao/PowerBus/packages/Libraries/error.aadl</semanticResources>
+    <semanticResources>Comunicacao/PowerBus/packages/Hardware/platform.aadl</semanticResources>
+    <semanticResources>Comunicacao/PowerBus/packages/Integration/integration.aadl</semanticResources>
+    <semanticResources>Comunicacao/PowerBus/packages/Software/software.aadl</semanticResources>
+    <semanticResources>Controle/packages/Hardware/devices.aadl</semanticResources>
+    <semanticResources>Controle/packages/Libraries/icd.aadl</semanticResources>
+    <semanticResources>Controle/packages/Libraries/error.aadl</semanticResources>
+    <semanticResources>Controle/packages/Hardware/platform.aadl</semanticResources>
+    <semanticResources>Controle/packages/Integration/integration.aadl</semanticResources>
+    <semanticResources>Controle/packages/Software/software.aadl</semanticResources>
+    <semanticResources>Powertrain/packages/Hardware/devices.aadl</semanticResources>
+    <semanticResources>Powertrain/packages/Libraries/icd.aadl</semanticResources>
+    <semanticResources>Powertrain/packages/Libraries/error.aadl</semanticResources>
+    <semanticResources>Powertrain/packages/Hardware/platform.aadl</semanticResources>
+    <semanticResources>Powertrain/packages/Integration/integration.aadl</semanticResources>
+    <semanticResources>Powertrain/packages/Software/software.aadl</semanticResources>
+    <semanticResources>Sensores/packages/Hardware/devices.aadl</semanticResources>
+    <semanticResources>Sensores/packages/Libraries/icd.aadl</semanticResources>
+    <semanticResources>Sensores/packages/Libraries/error.aadl</semanticResources>
+    <semanticResources>Sensores/packages/Hardware/platform.aadl</semanticResources>
+    <semanticResources>Sensores/packages/Integration/integration.aadl</semanticResources>
+    <semanticResources>Sensores/packages/Software/software.aadl</semanticResources>
+    <semanticResources>diagrams/Barramento_integracao_integracao_TesteImplementacao2.aadl_diagram</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_MDE94M_kEe2YEdILq_wW_g">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.osate.aadl2.errormodel.faulttree.design/description/faulttree.odesign#//@ownedViewpoints[name='FaultTree']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_MGF1oM_kEe2YEdILq_wW_g" name="barramento_integracao_integracao_testeimplementacao2-operational_tree FaultTreeTable" repPath="#_MFTygM_kEe2YEdILq_wW_g" changeId="d2b248b6-5c87-4a2a-a89a-f438c10f1623">
+        <description xmi:type="description_1:EditionTableDescription" href="platform:/plugin/org.osate.aadl2.errormodel.faulttree.design/description/faulttree.odesign#//@ownedViewpoints[name='FaultTree']/@ownedRepresentations[name='FaultTreeTable']"/>
+        <target xmi:type="FaultTree:FaultTree" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <table:DTable uid="_MFTygM_kEe2YEdILq_wW_g" headerColumnWidth="279">
+    <target xmi:type="FaultTree:FaultTree" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#/"/>
+    <lines xmi:type="table:DLine" uid="_MF5oYM_kEe2YEdILq_wW_g" label=" 'integracao.TesteImplementacao2'">
+      <target xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+      <semanticElements xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+      <originMapping xmi:type="description_1:LineMapping" href="platform:/plugin/org.osate.aadl2.errormodel.faulttree.design/description/faulttree.odesign#//@ownedViewpoints[name='FaultTree']/@ownedRepresentations[name='FaultTreeTable']/@ownedLineMappings[name='EventLine']"/>
+      <cells xmi:type="table:DCell" uid="_MGCLQM_kEe2YEdILq_wW_g" label="error state 'Operational'" column="_MGAWEM_kEe2YEdILq_wW_g">
+        <target xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+        <semanticElements xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_MGDZYc_kEe2YEdILq_wW_g" label="" column="_MGAWEs_kEe2YEdILq_wW_g">
+        <target xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+        <semanticElements xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_MGDZY8_kEe2YEdILq_wW_g" label="" column="_MGAWFM_kEe2YEdILq_wW_g">
+        <target xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+        <semanticElements xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_MGDZZc_kEe2YEdILq_wW_g" label="Basic event" column="_MGAWFs_kEe2YEdILq_wW_g">
+        <target xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+        <semanticElements xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+      </cells>
+      <cells xmi:type="table:DCell" uid="_MGDZZ8_kEe2YEdILq_wW_g" label="no" column="_MGAWGM_kEe2YEdILq_wW_g">
+        <target xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+        <semanticElements xmi:type="FaultTree:Event" href="Comunicacao/Barramento/packages/Integration/instances/reports/fta/barramento_integracao_integracao_testeimplementacao2-operational_tree.faulttree#//@events.0"/>
+      </cells>
+    </lines>
+    <columns xmi:type="table:DFeatureColumn" uid="_MGAWEM_kEe2YEdILq_wW_g" label="Error Model Element/Type" cells="_MGCLQM_kEe2YEdILq_wW_g" width="207" featureName="*">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/plugin/org.osate.aadl2.errormodel.faulttree.design/description/faulttree.odesign#//@ownedViewpoints[name='FaultTree']/@ownedRepresentations[name='FaultTreeTable']/@ownedColumnMappings[name='ErrorColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_MGAWEs_kEe2YEdILq_wW_g" label="Computed Probability" cells="_MGDZYc_kEe2YEdILq_wW_g" width="171" featureName="*">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/plugin/org.osate.aadl2.errormodel.faulttree.design/description/faulttree.odesign#//@ownedViewpoints[name='FaultTree']/@ownedRepresentations[name='FaultTreeTable']/@ownedColumnMappings[name='ProbabilityColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_MGAWFM_kEe2YEdILq_wW_g" label="Specified Probability" cells="_MGDZY8_kEe2YEdILq_wW_g" width="164" featureName="*">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/plugin/org.osate.aadl2.errormodel.faulttree.design/description/faulttree.odesign#//@ownedViewpoints[name='FaultTree']/@ownedRepresentations[name='FaultTreeTable']/@ownedColumnMappings[name='ProbabilityColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_MGAWFs_kEe2YEdILq_wW_g" label="Event/Gate Type" cells="_MGDZZc_kEe2YEdILq_wW_g" width="135" featureName="*">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/plugin/org.osate.aadl2.errormodel.faulttree.design/description/faulttree.odesign#//@ownedViewpoints[name='FaultTree']/@ownedRepresentations[name='FaultTreeTable']/@ownedColumnMappings[name='EventTypeColumn']"/>
+    </columns>
+    <columns xmi:type="table:DFeatureColumn" uid="_MGAWGM_kEe2YEdILq_wW_g" label="Dependent Event" cells="_MGDZZ8_kEe2YEdILq_wW_g" featureName="*">
+      <originMapping xmi:type="description_1:FeatureColumnMapping" href="platform:/plugin/org.osate.aadl2.errormodel.faulttree.design/description/faulttree.odesign#//@ownedViewpoints[name='FaultTree']/@ownedRepresentations[name='FaultTreeTable']/@ownedColumnMappings[name='DependentEventColumn']"/>
+    </columns>
+    <description xmi:type="description_1:EditionTableDescription" href="platform:/plugin/org.osate.aadl2.errormodel.faulttree.design/description/faulttree.odesign#//@ownedViewpoints[name='FaultTree']/@ownedRepresentations[name='FaultTreeTable']"/>
+  </table:DTable>
+</xmi:XMI>

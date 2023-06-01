@@ -1,0 +1,12 @@
+
+
+Computing Electrical Power for Grid,
+Capacity: 40.0 W,
+Supply: 40.0 W,40.0 W from EPSU,
+Budget: 4.1 W,800.0 mW for cpu, 800.0 mW for ram, 800.0 mW for canbus, 450.0 mW for sensor1, 450.0 mW for sensor2, 800.0 mW for actuator,
+Grid power budget total 4.1 W within capacity 40.0 W,
+budget total 4.1 W within supply 40.0 W,
+,
+
+
+

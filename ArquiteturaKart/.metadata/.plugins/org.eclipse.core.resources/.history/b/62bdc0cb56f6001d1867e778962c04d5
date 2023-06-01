@@ -1,0 +1,46 @@
+Bus load analysis of SCS_dualtier2_Instance
+
+
+"Physical Bus","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"canbus","768.0","512.0","0.0","160.0"
+"pcibus","900.0","650.0","0.0","405.0"
+
+"Bus canbus has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"sensor1.sensorout -> dcs.dca.iop.sense1.signalin","","0.0","","80.0"
+"sensor2.sensorout -> dcs.dca.iop.sense2.signalin","","0.0","","80.0"
+"dcs.dca.actuatorOut -> actuator.actuatorin","","0.0","","0.0"
+
+"Connection sensor1.sensorout -> dcs.dca.iop.sense1.signalin bound to canbus"
+"WARNING: Connection sensor1.sensorout -> dcs.dca.iop.sense1.signalin has no bandwidth budget"
+
+"Connection sensor2.sensorout -> dcs.dca.iop.sense2.signalin bound to canbus"
+"WARNING: Connection sensor2.sensorout -> dcs.dca.iop.sense2.signalin has no bandwidth budget"
+
+"Connection dcs.dca.actuatorOut -> actuator.actuatorin bound to canbus"
+"WARNING: Connection dcs.dca.actuatorOut -> actuator.actuatorin has no bandwidth budget"
+
+"Bus pcibus has data overhead of 0 bytes"
+"Bound Virtual Bus/Connection","Capacity (KB/s)","Budget (KB/s)","Required Budget (KB/s)","Actual (KB/s)"
+"filter.sensorfiltered -> control.sensorfiltered","","0.0","","100.0"
+"iop.sense1.signalout -> app.filter.sensorraw1","","0.0","","100.0"
+"iop.sense1.signalout -> app.filter.sensorraw2","","0.0","","100.0"
+"iop.sense2.signalout -> app.samplingin2","","0.0","","100.0"
+"app.control.actuatesensor -> iop.actuate.controlin","","0.0","","5.0"
+
+"Connection filter.sensorfiltered -> control.sensorfiltered bound to pcibus"
+"WARNING: Connection filter.sensorfiltered -> control.sensorfiltered has no bandwidth budget"
+
+"Connection iop.sense1.signalout -> app.filter.sensorraw1 bound to pcibus"
+"WARNING: Connection iop.sense1.signalout -> app.filter.sensorraw1 has no bandwidth budget"
+
+"Connection iop.sense1.signalout -> app.filter.sensorraw2 bound to pcibus"
+"WARNING: Connection iop.sense1.signalout -> app.filter.sensorraw2 has no bandwidth budget"
+
+"Connection iop.sense2.signalout -> app.samplingin2 bound to pcibus"
+"WARNING: Connection iop.sense2.signalout -> app.samplingin2 has no bandwidth budget"
+
+"Connection app.control.actuatesensor -> iop.actuate.controlin bound to pcibus"
+"WARNING: Connection app.control.actuatesensor -> iop.actuate.controlin has no bandwidth budget"
+
+

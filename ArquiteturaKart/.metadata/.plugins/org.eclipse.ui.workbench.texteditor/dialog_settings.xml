@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="true"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="Supplier"/>
+		<list key="findhistory">
+			<item value="Supplier"/>
+			<item value="actuator"/>
+			<item value="singletier2"/>
+			<item value="ElectrialPowerSupply"/>
+			<item value="ElectricGrid"/>
+			<item value="Electricity"/>
+			<item value="position"/>
+			<item value="calculation"/>
+			<item value="computation"/>
+			<item value="threshold"/>
+			<item value="warning_alert"/>
+			<item value="warning"/>
+			<item value="warning_activation"/>
+			<item value="EnCU"/>
+			<item value="Barramento"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Modelo3"/>
+			<item value="Sensores"/>
+			<item value="Powertrain"/>
+			<item value="Controle"/>
+			<item value="PowerBus"/>
+			<item value="Interfaces"/>
+			<item value="Cabeamento"/>
+			<item value="Barramento"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1241"/>
+		<item key="DIALOG_Y_ORIGIN" value="453"/>
+		<item key="DIALOG_WIDTH" value="363"/>
+		<item key="DIALOG_HEIGHT" value="437"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+</section>
