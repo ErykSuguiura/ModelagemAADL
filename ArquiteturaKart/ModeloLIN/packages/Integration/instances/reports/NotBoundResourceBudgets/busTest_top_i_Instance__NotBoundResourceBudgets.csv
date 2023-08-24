@@ -1,0 +1,46 @@
+Not Bound Resource Budget Analysis Report
+
+Resource Summary: In SystemMode som_1
+ in SystemMode In SystemMode som_1:   MIPS capacity 0,000 MIPS : MIPS budget 0,000 MIPS
+ in SystemMode In SystemMode som_1:   0 out of 0 with MIPS capacity
+* In SystemMode In SystemMode som_1:   0 out of 5 with MIPS budget
+
+Resource Summary: In SystemMode som_2
+ in SystemMode In SystemMode som_2:   MIPS capacity 0,000 MIPS : MIPS budget 0,000 MIPS
+ in SystemMode In SystemMode som_2:   0 out of 0 with MIPS capacity
+* In SystemMode In SystemMode som_2:   0 out of 5 with MIPS budget
+
+
+
+Detailed Processor MIPS Capacity Report In SystemMode som_1
+
+Component,Capacity
+Total, 0,000 MIPS,
+
+
+Detailed MIPS Budget Report In SystemMode som_1
+
+Component,Budget,Actual,Notes
+system sub1, 0,000 MIPS,0,000 MIPS,
+system sub2, 0,000 MIPS,0,000 MIPS,
+virtual bus VB1, 0,000 MIPS,0,000 MIPS,
+virtual bus VB2, 0,000 MIPS,0,000 MIPS,
+virtual bus VB3, 0,000 MIPS,0,000 MIPS,
+Total, ,0,000 MIPS,
+
+
+Detailed Processor MIPS Capacity Report In SystemMode som_2
+
+Component,Capacity
+Total, 0,000 MIPS,
+
+
+Detailed MIPS Budget Report In SystemMode som_2
+
+Component,Budget,Actual,Notes
+system sub1, 0,000 MIPS,0,000 MIPS,
+system sub2, 0,000 MIPS,0,000 MIPS,
+virtual bus VB1, 0,000 MIPS,0,000 MIPS,
+virtual bus VB2, 0,000 MIPS,0,000 MIPS,
+virtual bus VB3, 0,000 MIPS,0,000 MIPS,
+Total, ,0,000 MIPS,

@@ -1,0 +1,61 @@
+Bound Resource Budget Analysis Report
+
+
+Processor Summary Report: 
+  Processor PCM: Total MIPS 22,000 MIPS of bound tasks within MIPS capacity 50,000 MIPS of PCM
+  Processor PSCU: Total MIPS 42,800 MIPS of bound tasks within MIPS capacity 50,000 MIPS of PSCU
+  Processor HMI: Total MIPS 5,000 MIPS of bound tasks within MIPS capacity 50,000 MIPS of HMI
+*   Processor BCM: Bound app's have no MIPS budget.
+  Processor BMS: Total MIPS 5,000 MIPS of bound tasks within MIPS capacity 50,000 MIPS of BMS
+
+Memory Summary Report: 
+  No Memory with Memory_Size or RAMCapacity or ROMCapacity
+
+
+Detailed Workload Report:  for Processor PCM with Capacity 50,000 MIPS
+
+Component,Budget,Actual
+  thread radar_acquisition.thr,   4,000 MIPS,  0,000 MIPS,thread integracao_TesteImplementacao2_Instance.radar_acquisition.thr total 0,000 MIPS below budget 4,000 MIPS (100,0 % slack)
+process radar_acquisition, 0,000 MIPS,4,000 MIPS,
+  thread position_voter.thr,   8,000 MIPS,  0,000 MIPS,thread integracao_TesteImplementacao2_Instance.position_voter.thr total 0,000 MIPS below budget 8,000 MIPS (100,0 % slack)
+process position_voter, 0,000 MIPS,8,000 MIPS,
+  thread speed_threshold_calculation.thr,   5,000 MIPS,  0,000 MIPS,thread integracao_TesteImplementacao2_Instance.speed_threshold_calculation.thr total 0,000 MIPS below budget 5,000 MIPS (100,0 % slack)
+process speed_threshold_calculation, 0,000 MIPS,5,000 MIPS,
+  thread speed_controller.thr,   5,000 MIPS,  0,000 MIPS,thread integracao_TesteImplementacao2_Instance.speed_controller.thr total 0,000 MIPS below budget 5,000 MIPS (100,0 % slack)
+process speed_controller, 0,000 MIPS,5,000 MIPS,
+Total,,22,000 MIPS
+
+
+Detailed Workload Report:  for Processor PSCU with Capacity 50,000 MIPS
+
+Component,Budget,Actual
+  thread image_acquisition.thr_acq,   25,000 MIPS,  25,000 MIPS,
+process image_acquisition, 0,000 MIPS,25,000 MIPS,
+  thread obstacle_detection.thr,   10,000 MIPS,  9,800 MIPS,thread integracao_TesteImplementacao2_Instance.obstacle_detection.thr total 9,800 MIPS below budget 10,000 MIPS (2,0 % slack)
+process obstacle_detection, 0,000 MIPS,9,800 MIPS,
+  thread obstacle_distance_evaluation.thr,   8,000 MIPS,  0,000 MIPS,thread integracao_TesteImplementacao2_Instance.obstacle_distance_evaluation.thr total 0,000 MIPS below budget 8,000 MIPS (100,0 % slack)
+process obstacle_distance_evaluation, 0,000 MIPS,8,000 MIPS,
+Total,,42,800 MIPS
+
+
+Detailed Workload Report:  for Processor HMI with Capacity 50,000 MIPS
+
+Component,Budget,Actual
+  thread warning_activation.thr,   5,000 MIPS,  0,000 MIPS,thread integracao_TesteImplementacao2_Instance.warning_activation.thr total 0,000 MIPS below budget 5,000 MIPS (100,0 % slack)
+process warning_activation, 0,000 MIPS,5,000 MIPS,
+Total,,5,000 MIPS
+
+
+Detailed Workload Report:  for Processor BCM with Capacity 50,000 MIPS
+
+Component,Budget,Actual
+process speed_estimate, 0,000 MIPS,0,000 MIPS,
+Total,,0,000 MIPS
+
+
+Detailed Workload Report:  for Processor BMS with Capacity 50,000 MIPS
+
+Component,Budget,Actual
+  thread emergency_detection.thr,   5,000 MIPS,  0,000 MIPS,thread integracao_TesteImplementacao2_Instance.emergency_detection.thr total 0,000 MIPS below budget 5,000 MIPS (100,0 % slack)
+process emergency_detection, 0,000 MIPS,5,000 MIPS,
+Total,,5,000 MIPS

@@ -1,5 +1,225 @@
 <?xml version="1.0" encoding="ASCII"?>
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="8cb13b62-de84-4160-8de1-d0577b6045cd" manual="true">
+    <element uuid="48f5235d-af0d-4288-9b2f-7757530b89f3" manual="true">
+      <element uuid="8a262a4d-db56-4566-a580-f68af97d96b4" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>conn1</seg>
+      </bo>
+    </element>
+    <element uuid="4b213e39-0171-4efd-af04-36f8b9fee838" manual="true">
+      <element uuid="10339762-55ba-4b12-9a0c-ee459e3c0703" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>conn2</seg>
+      </bo>
+    </element>
+    <element uuid="98165953-ecc6-4516-86c7-214eaf5ea3ba" manual="true">
+      <element uuid="189ba2f0-39d2-4fc7-9e45-9e541fbf6597" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pconsume1</seg>
+      </bo>
+    </element>
+    <element uuid="382b6480-6193-4ebb-9030-6d9deb51bc5f" manual="true">
+      <element uuid="6fe1c303-e4c9-4991-9aad-e3151266a37f" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>pconsume2</seg>
+      </bo>
+      <bendpoints>
+        <point x="902.67578125" y="290.0"/>
+        <point x="902.67578125" y="260.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="d860e397-7760-4a07-b1d3-f052e07aae59" manual="true">
+      <element uuid="ec12ff0d-efc2-489e-8169-03f957599e6b" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>psupply1</seg>
+      </bo>
+    </element>
+    <element uuid="9dbaf77e-058b-4cde-9e16-79149004ae65" manual="true">
+      <element uuid="1bafdab1-ac5a-43ff-b686-b0763b560c9c" manual="true">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>psupply2</seg>
+      </bo>
+      <bendpoints>
+        <point x="303.9700622558594" y="185.0"/>
+        <point x="303.9700622558594" y="290.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="9e2eaebd-74c0-4b98-8632-51caa1f76fa4" manual="true">
+      <element uuid="ea7a64cf-04ba-4a29-b3ed-ddf1e298a591" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>potencia</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>barramento</seg>
+      </bo>
+      <position x="12.0" y="38.0"/>
+      <size width="276.87889862060547" height="60.0"/>
+    </element>
+    <element uuid="1253738c-4df8-4930-b13a-12a175851f8d" manual="true">
+      <element uuid="4695ff7c-7b07-4565-b01e-502c45407114" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>Fornecedor</seg>
+        </bo>
+        <position x="194.37108993530273" y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>Bateria</seg>
+      </bo>
+      <position x="12.0" y="143.0"/>
+      <size width="281.9700508117676" height="60.0"/>
+    </element>
+    <element uuid="47e200cc-3960-483e-ad39-94b64e8cc06c" manual="true">
+      <element uuid="44faaf4d-c3c6-4e1f-a336-cc29462d3a52" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>Consumidor</seg>
+        </bo>
+        <position x="187.24219131469727" y="10.0"/>
+      </element>
+      <element uuid="c8523367-b3bd-4411-9ad6-da71abc2eb3c" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>Fornecedor</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>Grid1</seg>
+      </bo>
+      <position x="313.9700622558594" y="143.0"/>
+      <size width="279.3528709411621" height="60.0"/>
+    </element>
+    <element uuid="0d650580-6077-4572-a263-ef11b4c2cf34" manual="true">
+      <element uuid="1099e624-0b83-423f-96fb-a005e4f62358" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>Consumidor</seg>
+        </bo>
+        <position x="187.24219131469727" y="10.0"/>
+      </element>
+      <element uuid="6ffa67a0-d5f4-4146-8cae-ff796cda0bf3" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>Fornecedor</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>Grid2</seg>
+      </bo>
+      <position x="613.3229370117188" y="248.0"/>
+      <size width="279.3528709411621" height="60.0"/>
+    </element>
+    <element uuid="62c8ff99-e614-48fd-979d-12fb4488b9ad" manual="true">
+      <element uuid="03116ace-9c3f-415b-935f-bd022de2bc00" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>in1</seg>
+        </bo>
+        <position x="195.1523323059082" y="10.0"/>
+      </element>
+      <element uuid="e1553cf3-938c-4a37-8507-8cd137885036" manual="true" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>out1</seg>
+        </bo>
+        <position x="185.471342086792" y="60.0"/>
+      </element>
+      <element uuid="e1b045b3-b248-440c-8846-0a801f409757" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>potencia</seg>
+        </bo>
+        <position y="35.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>scs1</seg>
+      </bo>
+      <position x="647.6979497273763" y="118.0"/>
+      <size width="227.79035186767578" height="110.0"/>
+    </element>
+    <element uuid="65b0cada-f509-4a15-9790-c3b13cdc144c" manual="true">
+      <element uuid="84eaab63-5d9f-49ed-b3c2-c874f9266f06" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>in1</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="29e2a581-4e04-422b-98d5-5468fdbf5718" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>out1</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="2fbaded5-3a5d-4a8f-92aa-56bf18331ad0" manual="true" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>potencia</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>scs2</seg>
+      </bo>
+      <position x="912.67578125" y="118.0"/>
+      <size width="227.79035186767578" height="160.0"/>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>Sistema.i</seg>
+    </bo>
+    <position/>
+    <size width="1152.4661865234375" height="320.0"/>
+  </element>
   <config type="structure" connectionPrimaryLabelsVisible="false">
     <enabledAadlProperties/>
     <context>

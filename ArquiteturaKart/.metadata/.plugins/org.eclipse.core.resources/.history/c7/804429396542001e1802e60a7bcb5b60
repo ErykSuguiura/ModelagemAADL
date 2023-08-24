@@ -1,0 +1,14 @@
+Bound Resource Budget Analysis Report
+
+
+Processor Summary Report: In SystemMode som_1
+  ** No processors
+
+Memory Summary Report: In SystemMode som_1
+  No Memory with Memory_Size or RAMCapacity or ROMCapacity
+
+Processor Summary Report: In SystemMode som_2
+  ** No processors
+
+Memory Summary Report: In SystemMode som_2
+  No Memory with Memory_Size or RAMCapacity or ROMCapacity

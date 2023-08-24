@@ -1,0 +1,14 @@
+Weight totals Report
+
+barramento: [L] Sum of weights / gross weight is 0,100 kg (no limit specified)
+Bateria: [L] Sum of weights / gross weight is 1,200 kg (no limit specified)
+Grid1: [L] Sum of weights / gross weight is 0,900 kg (no limit specified)
+sensor1: [L] Sum of weights / gross weight is 0,180 kg (no limit specified)
+atuador: [L] Sum of weights / gross weight is 0,300 kg (no limit specified)
+Warning! dca: [L] No net weight plus subcomponent weight or no gross weight
+dcs: [A] Sum of weights (0,000 kg) is below weight limit of 2,500 kg (100,0 % Weight slack)
+scs1: [A] Sum of weights (0,480 kg) is below weight limit of 2,500 kg (80,8 % Weight slack)
+Grid2: [L] Sum of weights / gross weight is 0,900 kg (no limit specified)
+Warning! dca: [L] No net weight plus subcomponent weight or no gross weight
+scs2: [A] Sum of weights (0,000 kg) is below weight limit of 2,500 kg (100,0 % Weight slack)
+ERROR:  Sistema_i_Instance: [A] Sum of weights (3,580 kg) exceeds weight limit of 3,000 kg

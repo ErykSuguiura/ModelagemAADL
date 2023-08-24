@@ -1172,3 +1172,158 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-08-10 10:46:37.341 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-08-10 10:46:40.057
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-08-10 10:46:45.179
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+!SESSION 2023-08-23 19:31:39.597 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-08-23 19:31:51.343
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+!SESSION 2023-08-24 06:58:58.720 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-08-24 07:01:20.029
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:12:30.490
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:12:33.892
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:12:50.177
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:12:56.154
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:18:43.217
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:18:45.615
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:20:51.309
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:20:53.344
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:29:07.293
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:29:09.038
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:30:47.014
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:30:48.717
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:37:22.632
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:37:24.200
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:38:55.552
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:38:58.014
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:57:25.321
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 07:57:26.502
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 08:23:48.629
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 08:23:49.905
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 08:26:32.879
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 08:26:33.999
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.eclipse.ui 4 0 2023-08-24 08:28:19.268
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.osate.ge.internal.GraphicalEditorException: Unable to find context business object: Classifier Exemplo::Sistema.i
+	at org.osate.ge.internal.diagram.runtime.updating.DefaultBusinessObjectTreeUpdater.updateTree(DefaultBusinessObjectTreeUpdater.java:171)
+	at org.osate.ge.internal.diagram.runtime.updating.DiagramUpdater.updateDiagram(DiagramUpdater.java:133)
+	at org.osate.ge.internal.diagram.runtime.updating.DiagramUpdater.updateDiagram(DiagramUpdater.java:122)
+	at org.osate.ge.gef.ui.editor.AgeEditor.lambda$25(AgeEditor.java:1216)
+	at org.osate.ge.internal.services.impl.DefaultActionService.execute(DefaultActionService.java:264)
+	at org.osate.ge.internal.services.impl.DefaultActionService.execute(DefaultActionService.java:258)
+	at org.osate.ge.gef.ui.editor.AgeEditor.updateDiagram(AgeEditor.java:1214)
+	at org.osate.ge.gef.ui.editor.AgeEditor.updateDiagram(AgeEditor.java:1192)
+	at org.osate.ge.gef.ui.editor.AgeEditor.lambda$6(AgeEditor.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5895)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1546)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Control.gtk_draw(Control.java:3890)
+	at org.eclipse.swt.widgets.Scrollable.gtk_draw(Scrollable.java:365)
+	at org.eclipse.swt.widgets.Composite.gtk_draw(Composite.java:496)
+	at org.eclipse.swt.widgets.Canvas.gtk_draw(Canvas.java:181)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2389)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6834)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6210)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1565)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4578)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.osate.ge 0 0 2023-08-24 08:32:06.830
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 08:32:08.303
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
