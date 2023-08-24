@@ -1327,3 +1327,48 @@ org.osate.ge.internal.GraphicalEditorException: Unable to find context business 
 
 !ENTRY org.osate.ge 0 0 2023-08-24 08:32:08.303
 !MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 08:53:22.025
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 08:53:23.429
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+!SESSION 2023-08-24 09:44:59.014 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 4 2023-08-24 09:45:16.464
+!MESSAGE Contributor org.osate.ui.navigator.AadlNavigator cannot be created.
+
+!ENTRY org.osate.ge 0 0 2023-08-24 10:16:04.728
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 10:16:06.885
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 10:28:11.021
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 10:28:12.967
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 10:32:35.619
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 10:32:37.864
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 10:33:48.727
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 10:33:50.916
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished
+
+!ENTRY org.osate.ge 0 0 2023-08-24 10:34:58.229
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Started
+
+!ENTRY org.osate.ge 0 0 2023-08-24 10:34:59.985
+!MESSAGE org.osate.ge.internal.ui.handlers.CreateDiagramHandler.execute(): CreateDiagramHandler Finished

@@ -1,0 +1,29 @@
+Not Bound Resource Budget Analysis Report
+
+Resource Summary: 
+**   System Sistema_i_Instance budgets over capacity: MIPS capacity 0,000 MIPS : MIPS budget 4,000 MIPS
+  0 out of 0 with MIPS capacity
+*   5 out of 8 with MIPS budget
+
+
+
+Detailed Processor MIPS Capacity Report 
+
+Component,Capacity
+Total, 0,000 MIPS,
+
+
+Detailed MIPS Budget Report 
+
+Component,Budget,Actual,Notes
+system Bateria, 0,000 MIPS,0,000 MIPS,
+system Grid1, 0,000 MIPS,0,000 MIPS,
+  device scs1.sensor1,   0,000 MIPS,  0,000 MIPS,
+  device scs1.atuador,   0,000 MIPS,  0,000 MIPS,
+    system scs1.dcs.dca,     2,000 MIPS,    0,000 MIPS,system Sistema_i_Instance.scs1.dcs.dca total 0,000 MIPS below budget 2,000 MIPS (100,0 % slack)
+  system scs1.dcs,   0,000 MIPS,  2,000 MIPS,
+system scs1, 0,000 MIPS,2,000 MIPS,
+system Grid2, 0,000 MIPS,0,000 MIPS,
+  system scs2.dca,   2,000 MIPS,  0,000 MIPS,system Sistema_i_Instance.scs2.dca total 0,000 MIPS below budget 2,000 MIPS (100,0 % slack)
+system scs2, 0,000 MIPS,2,000 MIPS,
+Total, ,4,000 MIPS,

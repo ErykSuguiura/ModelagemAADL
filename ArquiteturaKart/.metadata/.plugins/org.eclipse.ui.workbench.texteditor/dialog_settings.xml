@@ -6,8 +6,16 @@
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Supplier"/>
+		<item key="selection" value="CANbus"/>
 		<list key="findhistory">
+			<item value="CANbus"/>
+			<item value="sensor"/>
+			<item value="ESP32_DevKit"/>
+			<item value="Massa"/>
+			<item value="Weight"/>
+			<item value="scs2"/>
+			<item value="DCS"/>
+			<item value="GridEnergia"/>
 			<item value="Supplier"/>
 			<item value="actuator"/>
 			<item value="singletier2"/>
@@ -15,16 +23,9 @@
 			<item value="ElectricGrid"/>
 			<item value="Electricity"/>
 			<item value="position"/>
-			<item value="calculation"/>
-			<item value="computation"/>
-			<item value="threshold"/>
-			<item value="warning_alert"/>
-			<item value="warning"/>
-			<item value="warning_activation"/>
-			<item value="EnCU"/>
-			<item value="Barramento"/>
 		</list>
 		<list key="replacehistory">
+			<item value="dcs"/>
 			<item value="Modelo3"/>
 			<item value="Sensores"/>
 			<item value="Powertrain"/>
